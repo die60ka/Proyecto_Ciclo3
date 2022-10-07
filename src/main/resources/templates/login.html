@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/login.css" rel="stylesheet">
+</head>
+
+<body class="text-center d-flex h-100 text-center text-white bg-dark">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <h3 class="float-md-start mb-0">CRM Clothes</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+              <a class="nav-link" href="/">Inicio</a>
+              <a class="nav-link" href="/contact">Contacto</a>
+              <a class="nav-link active" aria-current="page" href="/login">login</a>
+            </nav>
+      </div>
+    </header>
+    <main class="form-signin px-3">
+      <form>
+        <img class="mb-4" src="Images/img-login.svg" alt="" width="72" height="57">
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+        
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInput" placeholder="Username">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+    
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <div id="error" class="alert alert-danger" role="alert">
+          A simple danger alert-check it out!
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="button" onclick="login()">Sign in</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+      </form>
+    </main>
+    <footer class="mt-auto text-white-50">
+      <p>Desarrollado por <a href="mailto:die60ka@gmail.com">Diego Carrrasco</a></p>
+      <p>Proyecto <a href="https://imaster.academy/" class="text-white">Ciclo 3</a>, por <a href="https://twitter.com/die60ka?t=NEI8YwOW0rCaBUIM_V2B0Q&s=08" class="text-white">@die60ka</a>.</p>
+  </footer>
+  </div>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/login.js"></script>
+</body>
+</html>
